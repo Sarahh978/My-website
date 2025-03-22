@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    <!-- Navbar -->
+    <header class="navbar">
+        <div class="logo">LuxuryStore</div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="homepage.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li class="dropdown">
+                    <a href="categories.html">Categories <i class="fas fa-chevron-down"></i></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="categories-men.html">Men</a></li>
+                        <li><a href="categories-women.html">Women</a></li>
+                        <li><a href="category-electronics.html">Electronics</a></li>
+                        <li><a href="category-accessories.html">Accessories</a></li>
+                    </ul>
+                </li>
+                <li><a href="category-deals.html">Deals</a></li>
+                <li><a href="contact-us.html">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="icons">
+            <div class="cart">
+                <i class="fas fa-shopping-cart"></i>
+                <span class="cart-count">3</span>
+            </div>
+            <div class="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+
+
+    <section class="women-hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1>Unparalleled Elegance, Timeless Beauty</h1>
+            <p>Step into a world of luxury, where fashion meets sophistication.</p>
+            <a href="#" class="btn explore-btn">Explore Collection</a>
+            <a href="shop.html" class="btn shop-btn">Shop Now</a>
+        </div>
+    </section>
+    
+
+
+
+    <section class="women-wardrobe">
+        <div class="wardrobe-container">
+            
+            <!-- Left Side - Wardrobe Categories -->
+            <div class="wardrobe-text">
+                <h2>Women’s Exclusive Wardrobe</h2>
+                <p>Refined fashion, handcrafted elegance, and timeless sophistication.</p>
+                
+                <div class="wardrobe-category">
+                    <h3>👗 Haute Couture</h3>
+                    <p>Elegant designer gowns & exclusive handcrafted dresses.</p>
+                </div>
+    
+                <div class="wardrobe-category">
+                    <h3>👜 Luxury Handbags</h3>
+                    <p>Iconic handbags crafted with the finest materials.</p>
+                </div>
+    
+                <div class="wardrobe-category">
+                    <h3>💎 Jewelry & Accessories</h3>
+                    <p>Exquisite diamond pieces, watches, and signature accessories.</p>
+                </div>
+            </div>
+    
+            <!-- Right Side - Fashion Slideshow -->
+            <div class="wardrobe-slider">
+                <div class="slides">
+                    <div class="slide"><img src="imges/dress.jpeg" alt="Luxury Dress"></div>
+                    <div class="slide"><img src="imges/handbag.jpeg" alt="Designer Handbag"></div>
+                    <div class="slide"><img src="imges/rings.jpeg" alt="Luxury Jewelry"></div>
+                    <div class="slide"><img src="imges/heels.jpeg" alt="Designer Shoes"></div>
+                    <div class="slide"><img src="imges/outfit.jpeg" alt="Exclusive Outfit"></div>
+                    <div class="slide"><img src="imges/coats.jpeg" alt="Luxury Coat"></div>
+                </div>
+                <button class="prev">&#10094;</button>
+                <button class="next">&#10095;</button>
+            </div>
+    
+        </div>
+    </section>
+    
+
+
+
+
+<section class="womens-lookbook">
+    <div class="lookbook-container">
+
+        <!-- Lookbook Items -->
+        <div class="lookbook-slide">
+            <div class="lookbook-text">
+                <h2>✨ Elegance Redefined</h2>
+                <p>Step into a world of sophistication with handcrafted evening gowns and luxury fashion.</p>
+                <a href="#" class="shop-now">Shop Now</a>
+            </div>
+            <div class="lookbook-image">
+                <img src="imges/eveningwear.jpeg" alt="Luxury Evening Wear">
+            </div>
+        </div>
+
+        <div class="lookbook-slide">
+            <div class="lookbook-text">
+                <h2>👗 Chic & Contemporary</h2>
+                <p>Experience modern elegance with designer outfits crafted for timeless appeal.</p>
+                <a href="#" class="shop-now">Shop Now</a>
+            </div>
+            <div class="lookbook-image">
+                <img src="imges/casual2.jpeg" alt="Casual Luxury">
+            </div>
+        </div>
+
+        <div class="lookbook-slide">
+            <div class="lookbook-text">
+                <h2>💎 Accessorize with Grace</h2>
+                <p>Elevate your style with statement jewelry, fine handbags, and luxury accessories.</p>
+                <a href="#" class="shop-now">Shop Now</a>
+            </div>
+            <div class="lookbook-image">
+                <img src="imges/luxurythings.jpeg" alt="Luxury Accessories">
+            </div>
+        </div>
+
+    </div>
+</section>
+
+
+
+
+<section class="women-accessories">
+    <h2 class="section-title">Luxury Finishing Touches</h2>
+    <p class="section-subtitle">Indulge in exquisite accessories that define elegance.</p>
+    
+    <!-- Accessories Grid -->
+    <div class="accessories-grid">
+        <div class="accessory-card" onclick="showDetails(1)">
+            <img src="imges/luxurythings.jpeg" alt="Luxury Jewelry">
+            <div class="overlay">
+                <h3>Luxury Jewelry</h3>
+                <p>Exquisite diamonds & gold pieces</p>
+            </div>
+        </div>
+
+        <div class="accessory-card" onclick="showDetails(2)">
+            <img src="imges/handbag2.jpeg" alt="Designer Handbag">
+            <div class="overlay">
+                <h3>Designer Handbags</h3>
+                <p>Timeless styles for every occasion</p>
+            </div>
+        </div>
+
+        <div class="accessory-card" onclick="showDetails(3)">
+            <img src="imges/women-watcg.jpeg" alt="Luxury Watch">
+            <div class="overlay">
+                <h3>Luxury Watches</h3>
+                <p>Masterpieces of precision & elegance</p>
+            </div>
+        </div>
+
+        <div class="accessory-card" onclick="showDetails(4)">
+            <img src="imges/glasseeswomen.jpeg" alt="Designer Eyewear">
+            <div class="overlay">
+                <h3>Designer Eyewear</h3>
+                <p>Frame your world with elegance</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Pop-up Modal for Product Details -->
+    <div id="product-modal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeDetails()">&times;</span>
+            <h2 id="product-title"></h2>
+            <p id="product-description"></p>
+        </div>
+    </div>
+</section>
+
+
+
+<section class="designer-collaborations">
+    <div class="background-overlay"></div>
+    
+    <div class="collaborations-container">
+        <h2 class="section-title">Featured Designer Collaborations</h2>
+        <p class="section-subtitle">Exclusive partnerships with the world's most prestigious fashion houses.</p>
+
+        <!-- Auto-Scrolling Brands -->
+        <div class="brands-carousel">
+            <div class="brand-track">
+                <div class="brand-card">
+                    <img src="imges/versace2.jpeg" alt="Versace">
+                    <div class="brand-info">
+                        <h3>Versace</h3>
+                        <p>Opulent Italian craftsmanship and timeless luxury.</p>
+                    </div>
+                </div>
+                <div class="brand-card">
+                    <img src="imges/gucci2.jpeg" alt="Gucci">
+                    <div class="brand-info">
+                        <h3>Gucci</h3>
+                        <p>Luxury fashion with bold, contemporary designs.</p>
+                    </div>
+                </div>
+                <div class="brand-card">
+                    <img src="imges/chanel.jpeg" alt="Chanel">
+                    <div class="brand-info">
+                        <h3>Chanel</h3>
+                        <p>Timeless elegance meets modern sophistication.</p>
+                    </div>
+                </div>
+                <div class="brand-card">
+                    <img src="imges/dior.jpeg" alt="Dior">
+                    <div class="brand-info">
+                        <h3>Dior</h3>
+                        <p>Iconic haute couture fashion redefining luxury.</p>
+                    </div>
+                </div>
+                <div class="brand-card">
+                    <img src="imges/louis.jpeg" alt="Louis Vuitton">
+                    <div class="brand-info">
+                        <h3>Louis Vuitton</h3>
+                        <p>French craftsmanship at its finest.</p>
+                    </div>
+                </div>
+
+                <!-- Duplicate brands for seamless scrolling -->
+                <div class="brand-card">
+                    <img src="imges/versace3.jpeg" alt="Versace">
+                    <div class="brand-info">
+                        <h3>Versace</h3>
+                        <p>Opulent Italian craftsmanship and timeless luxury.</p>
+                    </div>
+                </div>
+                <div class="brand-card">
+                    <img src="imges/gucci.jpeg" alt="Gucci">
+                    <div class="brand-info">
+                        <h3>Gucci</h3>
+                        <p>Luxury fashion with bold, contemporary designs.</p>
+                    </div>
+                </div>
+                <div class="brand-card">
+                    <img src="imges/chanel.jpeg" alt="Chanel">
+                    <div class="brand-info">
+                        <h3>Chanel</h3>
+                        <p>Timeless elegance meets modern sophistication.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+<section class="womens-lounge">
+    <div class="lounge-overlay"></div>
+    
+    <div class="lounge-content">
+        <h2 class="lounge-title">The Women’s Lounge</h2>
+        <p class="lounge-subtitle">A Haven of Sophistication & Elegance</p>
+
+        <div class="lounge-benefits">
+            <div class="benefit-card">
+                <h3>🌟 Exclusive Membership</h3>
+                <p>Unlock VIP benefits, priority access, and personalized styling services.</p>
+            </div>
+            <div class="benefit-card">
+                <h3>🛍️ Personalized Shopping</h3>
+                <p>Enjoy private showrooms and expert guidance for your luxury needs.</p>
+            </div>
+            <div class="benefit-card">
+                <h3>🎁 Bespoke Gifting</h3>
+                <p>Custom-curated luxury gifts for special occasions, wrapped in elegance.</p>
+            </div>
+        </div>
+
+        <!-- Inquiry Form -->
+        <div class="inquiry-form">
+            <h3>💬 Join the Lounge</h3>
+            <form>
+                <input type="text" placeholder="Full Name" required>
+                <input type="email" placeholder="Email Address" required>
+                <textarea placeholder="Tell us what you're looking for..." required></textarea>
+                <button type="submit">Request Access</button>
+            </form>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+<!-- Footer -->
+<footer>
+    <div class="footer-content">
+        <p>&copy; 2025 LuxuryStore. All Rights Reserved.</p>
+        
+        <div class="social-links">
+            <p>Follow us on:</p>
+            <a href="https://instagram.com" target="_blank" class="social-icon">
+                <img src="imges/insta.jpeg" alt="Instagram">
+            </a>
+            <a href="https://facebook.com" target="_blank" class="social-icon">
+                <img src="imges/facebook.jpeg" alt="Facebook">
+            </a>
+            <a href="https://twitter.com" target="_blank" class="social-icon">
+                <img src="imges/twitter.jpeg" alt="Twitter">
+            </a>
+        </div>
+    </div>
+</footer>
+
+
+    <script defer src="script.js"></script>
+</body>
+</html>
+
+    

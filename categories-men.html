@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+  <header class="navbar">
+    <div class="logo">LuxuryStore</div>
+    
+    <nav>
+        <ul class="nav-links">
+            <li><a href="homepage.html">Home</a></li>
+            <li><a href="shop.html">Shop</a></li>
+            <li class="dropdown">
+                <a href="categories.html">Categories <i class="fas fa-chevron-down"></i></a>
+                <ul class="dropdown-menu">
+                    <li><a href="categories-men.html">Men</a></li>
+                    <li><a href="categories-women.html">Women</a></li>
+                    <li><a href="category-electronics.html">Electronics</a></li>
+                    <li><a href="category-accessories.html">Accessories</a></li>
+                </ul>
+            </li>
+            <li><a href="category-deals.html">Deals</a></li>
+            <li><a href="contact-us.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="icons">
+        <div class="cart">
+            <i class="fas fa-shopping-cart"></i>
+            <span class="cart-count">3</span>
+        </div>
+        <div class="hamburger">
+            <i class="fas fa-bars"></i>
+        </div>
+    </div>
+</header>
+
+
+
+<section class="category-men">
+  <!-- Hero Section -->
+  <section class="hero-section">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+        <h1 class="hero-title">Men's Luxury Collection</h1>
+        <p class="hero-subtitle">Timeless fashion, ultimate craftsmanship, and prestige.</p>
+    </div>
+</section>
+
+
+  <!-- Category Slider -->
+  <div class="category-slider">
+      <button id="prevBtn" class="slider-btn">&#10094;</button>
+      <div class="slider-wrapper">
+          <div class="slider">
+              <!-- Category Cards -->
+              <div class="category-card">
+                  <img src="imges/mensuit.jpeg" alt="Men's Suits">
+                  <h3>Luxury Suits</h3>
+              </div>
+
+              <div class="category-card">
+                  <img src="imges/watch.jpeg" alt="Men's Watches">
+                  <h3>Elegant Watches</h3>
+              </div>
+
+              <div class="category-card">
+                  <img src="imges/sneakers.jpeg" alt="Men's Shoes">
+                  <h3>Premium Shoes</h3>
+              </div>
+
+              <div class="category-card">
+                  <img src="imges/glasses6.jpeg" alt="Men's Sunglasses">
+                  <h3>Designer Glasses</h3>
+              </div>
+
+              <div class="category-card">
+                  <img src="imges/perfume3.jpeg" alt="Men's Fragrances">
+                  <h3>Luxury Fragrances</h3>
+              </div>
+
+              <div class="category-card">
+                  <img src="imges/men-acessories.jpeg" alt="Men's Accessories">
+                  <h3>Exclusive Accessories</h3>
+              </div>
+
+              <div class="category-card">
+                  <img src="imges/men-bags.jpeg" alt="Men's Bags">
+                  <h3>Designer Bags</h3>
+              </div>
+          </div>
+      </div>
+      <button id="nextBtn" class="slider-btn">&#10095;</button>
+  </div>
+</section>
+
+
+
+<section class="gentlemans-choice">
+  <div class="container">
+      <h2 class="section-title">The Gentleman's Choice</h2>
+      <p class="section-subtitle">Exquisite selections tailored for the modern gentleman.</p>
+
+      <div class="choice-grid">
+          <!-- Watches -->
+          <div class="choice-card">
+              <div class="choice-image">
+                  <img src="imges/watch.jpeg" alt="Luxury Watch">
+              </div>
+              <div class="choice-content">
+                  <h3>Timeless Watches</h3>
+                  <p>Precision-crafted timepieces for every occasion and any time.</p>
+                  <a href="#" class="shop-link">Shop Now →</a>
+              </div>
+          </div>
+
+          <!-- Suits -->
+          <div class="choice-card">
+              <div class="choice-image">
+                  <img src="imges/mensuit.jpeg" alt="Tailored Suits">
+              </div>
+              <div class="choice-content">
+                  <h3>Tailored Suits</h3>
+                  <p>Elegant, custom-fitted suits for timeless style immaculate and sophisticated styles.</p>
+                  <a href="#" class="shop-link">Shop Now →</a>
+              </div>
+          </div>
+
+          <!-- Shoes -->
+          <div class="choice-card">
+              <div class="choice-image">
+                  <img src="imges/sneakers.jpeg" alt="Luxury Footwear">
+              </div>
+              <div class="choice-content">
+                  <h3>Luxury Footwear</h3>
+                  <p>Handcrafted leather shoes for a distinguished look <br> and immaculate design <br> with lavish lookking design.</p>
+                  <a href="#" class="shop-link">Shop Now →</a>
+              </div>
+          </div>
+
+          <!-- Accessories -->
+          <div class="choice-card">
+              <div class="choice-image">
+                  <img src="imges/wallet2.jpeg" alt="Exclusive Accessories">
+              </div>
+              <div class="choice-content">
+                  <h3>Exclusive Accessories</h3>
+                  <p>Refined details that complete the gentleman’s attire.</p>
+                  <a href="#" class="shop-link">Shop Now →</a>
+              </div>
+          </div>
+      </div>
+  </div>
+</section>
+
+
+
+
+<section class="elite-membership">
+  <div class="overlay"></div>
+  <h2 class="section-title">Elite Membership Perks</h2>
+  <p class="membership-desc">
+      Unlock unparalleled privileges with our exclusive membership. Elevate your lifestyle with these premium benefits.
+  </p>
+
+  <div class="perks-container">
+      <!-- Perk 1 -->
+      <div class="perk-card">
+          <div class="icon">🎟️</div>
+          <h3>VIP Access</h3>
+          <p>Exclusive invitations to private events and early product releases.</p>
+      </div>
+
+      <!-- Perk 2 -->
+      <div class="perk-card">
+          <div class="icon">🎁</div>
+          <h3>Luxury Gifts</h3>
+          <p>Receive premium gifts, personalized for our esteemed members.</p>
+      </div>
+
+      <!-- Perk 3 -->
+      <div class="perk-card">
+          <div class="icon">📞</div>
+          <h3>Personal Concierge</h3>
+          <p>24/7 luxury concierge service to assist with all your elite needs.</p>
+      </div>
+
+      <!-- Perk 4 -->
+      <div class="perk-card">
+          <div class="icon">✈️</div>
+          <h3>Travel Upgrades</h3>
+          <p>Enjoy priority bookings, first-class upgrades, and luxury stays.</p>
+      </div>
+
+      <!-- Perk 5 -->
+      <div class="perk-card">
+          <div class="icon">💎</div>
+          <h3>Exclusive Discounts</h3>
+          <p>Special pricing on high-end collections and bespoke services.</p>
+      </div>
+
+      <!-- Perk 6 -->
+      <div class="perk-card">
+          <div class="icon">📦</div>
+          <h3>Priority Delivery</h3>
+          <p>Fast-tracked shipping and premium white-glove delivery service.</p>
+      </div>
+  </div>
+</section>
+
+
+
+<section class="mens-wardrobe">
+    <div class="wardrobe-container">
+        
+        <!-- Left Side - Text Content -->
+        <div class="wardrobe-text">
+            <h2>Men’s Exclusive Wardrobe</h2>
+            <p>Elevate your style with our meticulously curated luxury wardrobe.</p>
+            
+            <!-- Categories -->
+            <div class="wardrobe-category">
+                <h3>🕴 Formal Wear</h3>
+                <p>Timeless elegance with handcrafted suits, silk shirts, and premium footwear.</p>
+            </div>
+
+            <div class="wardrobe-category">
+                <h3>👔 Casual Wear</h3>
+                <p>Relax in luxury with designer polos, custom leather jackets, and high-end denim.</p>
+            </div>
+
+            <div class="wardrobe-category">
+                <h3>⌚ Accessories</h3>
+                <p>Complete your look with exclusive watches, fine leather belts, and premium eyewear.</p>
+            </div>
+        </div>
+
+        <!-- Right Side - Image Slider -->
+        <div class="wardrobe-slider">
+            <div class="slides">
+                <div class="slide"><img src="imges/mensuit.jpeg" alt="Luxury Suit"></div>
+                <div class="slide"><img src="imges/casual.jpeg" alt="Casual Wear"></div>
+                <div class="slide"><img src="imges/sneakers.jpeg" alt="Luxury Footwear"></div>
+                <div class="slide"><img src="imges/watch.jpeg" alt="Luxury Watch"></div>
+                <div class="slide"><img src="imges/jacket.jpeg" alt="Leather Jacket"></div>
+                <div class="slide"><img src="imges/clothes.jpeg" alt="Dress Shirt"></div>
+                <div class="slide"><img src="imges/tuxedo.jpeg" alt="Modern Tuxedo"></div>
+                <div class="slide"><img src="imges/eyewear.jpeg" alt="Designer Eyewear"></div>
+            </div>
+            <button class="prev">&#10094;</button>
+            <button class="next">&#10095;</button>
+        </div>
+
+    </div>
+</section>
+
+
+
+
+<section class="bespoke-tailoring">
+    <div class="tailoring-container">
+        
+        <!-- Left Side: Text Content -->
+        <div class="tailoring-text">
+            <h2>🔹 Bespoke Tailoring Experience</h2>
+            <p>Crafted to perfection, our tailored suits blend elegance with individuality.</p>
+
+            <!-- Step-by-Step Tailoring Process -->
+            <div class="tailoring-steps">
+                <div class="step">
+                    <h3>1️⃣ Select Your Fabric</h3>
+                    <p>Choose from the finest Italian wool, cashmere, or silk-blend textiles.</p>
+                </div>
+                <div class="step">
+                    <h3>2️⃣ Customize Your Fit</h3>
+                    <p>Tailored to your exact measurements for a flawless fit.</p>
+                </div>
+                <div class="step">
+                    <h3>3️⃣ Final Touches</h3>
+                    <p>Add monograms, unique buttons, and lining preferences.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Right Side: Interactive Suit Customizer -->
+        <div class="tailoring-customizer">
+            <div class="suit-display-wrapper">
+                <img id="suit-display" src="imges/tuxedo.jpeg" alt="Custom Suit">
+            </div>
+
+            <!-- More Customization Options -->
+            <div class="customizer-options">
+                <h3>🎨 Choose Suit Color:</h3>
+                <button onclick="changeSuit('imges/tuxedo.jpeg')">Classic Black</button>
+                <button onclick="changeSuit('imges/bluetuxedo.jpeg')">Royal Blue</button>
+                <button onclick="changeSuit('imges/greytuxedo1.jpeg')">Elegant Gray</button>
+
+                <h3>🧵 Select Fabric:</h3>
+                <button onclick="changeFabric('wool')">Italian Wool</button>
+                <button onclick="changeFabric('silk')">Silk Blend</button>
+                <button onclick="changeFabric('cashmere')">Cashmere</button>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+
+
+
+
+<section class="elite-lounge">
+    <div class="lounge-overlay"></div> <!-- See-through effect -->
+
+    <div class="lounge-container">
+        <!-- Left Content -->
+        <div class="lounge-text">
+            <h2>Elite Gentleman’s Lounge</h2>
+            <p>Indulge in an atmosphere of sophistication and exclusivity. Experience luxury at its finest.</p>
+            
+            <ul class="lounge-benefits">
+                <li>🛋️ Private VIP Access</li>
+                <li>🥃 Premium Whiskey Collection</li>
+                <li>💼 Personalized Styling Sessions</li>
+                <li>🎩 Exclusive Members-Only Events</li>
+                <li>📜 Handcrafted Accessories Showcase</li>
+            </ul>
+
+            <button class="explore-btn">Explore More</button>
+        </div>
+
+        <!-- Right Side: Inquiry Form -->
+        <div class="inquiry-form">
+            <h3>Exclusive Inquiry</h3>
+            <p>Join the elite experience. Submit your inquiry below.</p>
+            
+            <form>
+                <div class="input-group">
+                    <input type="text" id="name" required>
+                    <label for="name">Full Name</label>
+                </div>
+                
+                <div class="input-group">
+                    <input type="email" id="email" required>
+                    <label for="email">Email Address</label>
+                </div>
+
+                <div class="input-group">
+                    <input type="text" id="subject" required>
+                    <label for="subject">Subject</label>
+                </div>
+
+                <div class="input-group">
+                    <textarea id="message" required></textarea>
+                    <label for="message">Your Message</label>
+                </div>
+
+                <button type="submit" class="submit-btn">Submit Inquiry</button>
+            </form>
+        </div>
+    </div>
+</section>
+
+
+
+<!-- Footer -->
+<footer>
+    <div class="footer-content">
+        <p>&copy; 2025 LuxuryStore. All Rights Reserved.</p>
+        <div class="social-links">
+            <p>Follow us on:</p>
+            <a href="https://instagram.com" target="_blank" class="social-icon">
+                <img src="imges/insta.jpeg" alt="Instagram">
+            </a>
+            <a href="https://facebook.com" target="_blank" class="social-icon">
+                <img src="imges/facebook.jpeg" alt="Facebook">
+            </a>
+            <a href="https://twitter.com" target="_blank" class="social-icon">
+                <img src="imges/twitter.jpeg" alt="Twitter">
+            </a>
+        </div>
+    </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
+
+
+    
+
+
+
+
+
+
+
+
+
+

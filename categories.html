@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!-- Navbar -->
+    <header class="navbar">
+        <div class="logo">LuxuryStore</div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="homepage.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li class="dropdown">
+                    <a href="categories.html">Categories <i class="fas fa-chevron-down"></i></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="categories-men.html">Men</a></li>
+                        <li><a href="categories-women.html">Women</a></li>
+                        <li><a href="category-electronics.html">Electronics</a></li>
+                        <li><a href="category-accessories.html">Accessories</a></li>
+                    </ul>
+                </li>
+                <li><a href="category-deals.html">Deals</a></li>
+                <li><a href="contact-us.html">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="icons">
+            <div class="cart">
+                <i class="fas fa-shopping-cart"></i>
+                <span class="cart-count">3</span>
+            </div>
+            <div class="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+
+   <!-- Header -->
+<header>
+    <h1 class="header-title">Luxury Collections</h1>
+    <p class="para2">Discover premium selections crafted for elegance and prestige.</p>
+</header>
+
+<!-- Categories Section -->
+<section class="categories-container">
+    
+    <!-- Left: Category Cards -->
+    <div class="categories">
+        <h2 class="section-title">Explore Categories</h2>
+        <div class="category-grid">
+            
+            <div class="category-card" data-title="Luxury Watches" data-text="Timeless craftsmanship from iconic brands.">
+                <img src="imges/watch.jpeg" alt="Luxury Watches">
+                <div class="overlay">
+                    <h3>Luxury Watches</h3>
+                    <p>Timeless craftsmanship from iconic brands represents a commitment to quality, heritage, and enduring style.</p>
+                </div>
+            </div>
+
+            <div class="category-card" data-title="Premium Cars" data-text="Experience speed & luxury with elite vehicles.">
+                <img src="imges/cars.jpeg" alt="Premium Cars">
+                <div class="overlay">
+                    <h3>Premium Cars</h3>
+                    <p>Experience speed & luxury with elite vehicles with immaculate features.</p>
+                </div>
+            </div>
+
+            <div class="category-card" data-title="Designer Bags" data-text="Exclusive styles for high-end fashion lovers.">
+                <img src="imges/bags.jpeg" alt="Designer Bags">
+                <div class="overlay">
+                    <h3>Designer Bags</h3>
+                    <p>Exclusive styles for high-end fashion lovers this would be perfect for them.</p>
+                </div>
+            </div>
+
+            <div class="category-card" data-title="Luxury Perfumes" data-text="Indulge in the most exquisite fragrances.">
+                <img src="imges/perfume.jpeg" alt="Luxury Perfumes">
+                <div class="overlay">
+                    <h3>Luxury Perfumes</h3>
+                    <p>Indulge in the most exquisite fragrances and most sophisticated experience.</p>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+</section>
+
+
+<!-- best sellinf products -->
+<section class="best-sellers">
+    <div class="overlay"></div>
+    <h2 class="section-title">Best-Selling Products</h2>
+
+    <div class="slider-container">
+        <button class="prev-btn">&#10094;</button>
+        <div class="slider">
+            <!-- Product 1 -->
+            <div class="product-card">
+                <img src="imges/gold2.jpeg" alt="Gold Diamond Ring">
+                <h3>Gold Diamond Ring</h3>
+                <p>24K Pure Gold with Certified Diamonds</p>
+                <span class="price">$9,999</span>
+            </div>
+
+            <!-- Product 2 -->
+            <div class="product-card">
+                <img src="imges/swiss2.jpeg" alt="Luxury Watch">
+                <h3>Swiss Luxury Watch</h3>
+                <p>Automatic Movement with Sapphire Crystal</p>
+                <span class="price">$12,499</span>
+            </div>
+
+            <!-- Product 3 -->
+            <div class="product-card">
+                <img src="imges/perfume3.jpeg" alt="Elite Fragrance">
+                <h3>Elite Fragrance</h3>
+                <p>Long-Lasting Unisex Perfume sophisticated</p>
+                <span class="price">$499</span>
+            </div>
+
+            <!-- Product 4 -->
+            <div class="product-card">
+                <img src="imges/bag2.jpeg" alt="Luxury Handbag">
+                <h3>Designer Handbag</h3>
+                <p>Italian Leather with Gold Accents yet immaculate</p>
+                <span class="price">$3,599</span>
+            </div>
+
+            <!-- Product 5 -->
+            <div class="product-card">
+                <img src="imges/leth3.jpeg" alt="Luxury Shoes">
+                <h3>Luxury Shoes</h3>
+                <p>Handmade with 100% Genuine Leather</p>
+                <span class="price">$1,299</span>
+            </div>
+
+            <!-- Product 6 -->
+            <div class="product-card">
+                <img src="imges/glasses4.jpeg" alt="Luxury Sunglasses">
+                <h3>Premium Sunglasses</h3>
+                <p>UV Protection with Luxury Frame</p>
+                <span class="price">$899</span>
+            </div>
+
+            <!-- Product 7 -->
+            <div class="product-card">
+                <img src="imges/pen8.jpeg" alt="Exclusive Gold Pen">
+                <h3>Exclusive Gold Pen</h3>
+                <p>18K Gold-Plated Luxury immaculate lavish <br> spectacular Pen</p>
+                <span class="price">$1,199</span>
+            </div>
+
+            <!-- Product 8 -->
+            <div class="product-card">
+                <img src="imges/wallet5.jpeg" alt="Luxury Wallet">
+                <h3>Luxury leather Wallet</h3>
+                <p>Handmade Italian Leather</p>
+                <span class="price">$699</span>
+            </div>
+        </div>
+        <button class="next-btn">&#10095;</button>
+    </div>
+</section>
+
+
+<!-- Luxury experience -->
+<section class="luxury-experience">
+    <div class="experience-container">
+        <!-- Left Side: Text & Icons -->
+        <div class="experience-text">
+            <h2>The Luxury Experience</h2>
+            <p>Immerse yourself in an exclusive world of elegance, prestige, and superior craftsmanship.</p>
+            
+            <div class="experience-item">
+                <img src="imges/exclusive1.jpeg" alt="Exclusive Service">
+                <div>
+                    <h3>Exclusive Service</h3>
+                    <p>Personalized consultations to match your sophisticated tastes.</p>
+                </div>
+            </div>
+
+            <div class="experience-item">
+                <img src="imges/PremiumMaterials.jpeg" alt="Premium Quality">
+                <div>
+                    <h3>Premium Quality</h3>
+                    <p>Every product is made with the finest materials and expert craftsmanship.</p>
+                </div>
+            </div>
+
+            <div class="experience-item">
+                <img src="imges/vip.jpeg" alt="VIP Treatment">
+                <div>
+                    <h3>VIP Treatment</h3>
+                    <p>Enjoy exclusive perks, priority access, and luxury privileges.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Right Side: Image -->
+        <div class="experience-image">
+            <img src="imges/lifestyle.jpeg" alt="Luxury Experience">
+        </div>
+    </div>
+</section>
+
+
+<!-- membership benefits -->
+<section class="membership-benefits">
+    <div class="container">
+        <h2 class="section-title">Exclusive Membership Benefits</h2>
+        <p class="section-description">
+            Elevate your experience with unparalleled access to luxury privileges.
+        </p>
+        
+        <div class="benefits-grid">
+            <!-- Benefit 1 -->
+            <div class="benefit-card">
+                <div class="front">
+                    <img src="imges/vip.jpeg" alt="VIP Invitations">
+                    <h3>VIP Invitations</h3>
+                </div>
+                <div class="back">
+                    <p>Gain access to private events, fashion shows, and exclusive launches.</p>
+                </div>
+            </div>
+
+            <!-- Benefit 2 -->
+            <div class="benefit-card">
+                <div class="front">
+                    <img src="imges/silk.jpeg" alt="Personal Shopper">
+                    <h3>Personal Shopper</h3>
+                </div>
+                <div class="back">
+                    <p>Enjoy a dedicated luxury expert to curate your perfect collection.</p>
+                </div>
+            </div>
+
+            <!-- Benefit 3 -->
+            <div class="benefit-card">
+                <div class="front">
+                    <img src="imges/premium2.jpeg" alt="Priority Service">
+                    <h3>Priority Service</h3>
+                </div>
+                <div class="back">
+                    <p>Get priority access to new arrivals and customized services.</p>
+                </div>
+            </div>
+
+            <!-- Benefit 4 -->
+            <div class="benefit-card">
+                <div class="front">
+                    <img src="imges/lux2.jpeg" alt="Luxury Rewards">
+                    <h3>Luxury Rewards</h3>
+                </div>
+                <div class="back">
+                    <p>Earn exclusive rewards and redeem them for bespoke experiences.</p>
+                </div>
+            </div>
+
+            <!-- Benefit 5 -->
+            <div class="benefit-card">
+                <div class="front">
+                    <img src="imges/showroom.jpeg" alt="Private Showroom">
+                    <h3>Private Showroom Access</h3>
+                </div>
+                <div class="back">
+                    <p>Experience a one-on-one luxury shopping experience in a private setting.</p>
+                </div>
+            </div>
+
+
+
+            <!-- Benefit 5 -->
+            <div class="benefit-card">
+                <div class="front">
+                    <img src="imges/exclusive1.jpeg" alt="Private Showroom">
+                    <h3>Exclusive Entry</h3>
+                </div>
+                <div class="back">
+                    <p>Early access to limited collections, private sales, and launches.</p>
+                </div>
+            </div>
+
+
+            <!-- Benefit 5 -->
+            <div class="benefit-card">
+                <div class="front">
+                    <img src="imges/PremiumMaterials.jpeg" alt="Private Showroom">
+                    <h3>Personalized Care</h3>
+                </div>
+                <div class="back">
+                    <p>Bespoke styling, custom options, and VIP support.</p>
+                </div>
+            </div>
+
+            <!-- Benefit 6 -->
+            <div class="benefit-card">
+                <div class="front">
+                    <img src="imges/Bespoke.jpeg" alt="Bespoke Customization">
+                    <h3>Bespoke Customization</h3>
+                </div>
+                <div class="back">
+                    <p>Enjoy tailored designs and custom-made luxury pieces.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<!-- Footer -->
+<footer>
+    <div class="footer-content">
+        <p>&copy; 2025 LuxuryStore. All Rights Reserved.</p>
+        <div class="social-links">
+            <p>Follow us on:</p>
+            <a href="https://instagram.com" target="_blank" class="social-icon">
+                <img src="imges/insta.jpeg" alt="Instagram">
+            </a>
+            <a href="https://facebook.com" target="_blank" class="social-icon">
+                <img src="imges/facebook.jpeg" alt="Facebook">
+            </a>
+            <a href="https://twitter.com" target="_blank" class="social-icon">
+                <img src="imges/twitter.jpeg" alt="Twitter">
+            </a>
+        </div>
+    </div>
+</footer>
+
+   
+    <script defer src="script.js"></script>
+</body>
+</html>

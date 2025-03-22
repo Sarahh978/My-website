@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    <!-- Navbar -->
+    <header class="navbar">
+        <div class="logo">LuxuryStore</div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="homepage.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li class="dropdown">
+                    <a href="categories.html">Categories <i class="fas fa-chevron-down"></i></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="categories-men.html">Men</a></li>
+                        <li><a href="categories-women.html">Women</a></li>
+                        <li><a href="category-electronics.html">Electronics</a></li>
+                        <li><a href="category-accessories.html">Accessories</a></li>
+                    </ul>
+                </li>
+                <li><a href="category-deals.html">Deals</a></li>
+                <li><a href="contact-us.html">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="icons">
+            <div class="cart">
+                <i class="fas fa-shopping-cart"></i>
+                <span class="cart-count">3</span>
+            </div>
+            <div class="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+
+
+<!-- Hero Section -->
+<section class="hero">
+    <div class="background-animation"></div> <!-- Animated Background -->
+    
+    <div class="hero-content">
+        <h1 class="hero-title">
+            <span class="slide-text">Luxury Deals</span>
+            <span class="slide-text">Premium Offers</span>
+            <span class="slide-text">Limited-Time Discounts</span>
+        </h1>
+
+        <!-- Countdown Timer -->
+        <div class="countdown-container">
+            <p>Exclusive Offer Ends In:</p>
+            <div id="countdown">
+                <span class="time" id="days">10</span> : 
+                <span class="time" id="hours">24</span> : 
+                <span class="time" id="minutes">36</span> : 
+                <span class="time" id="seconds">12</span>
+            </div>
+        </div>
+
+        <!-- CTA Buttons -->
+        <div class="cta-buttons">
+            <a href="shop.html" class="btn">Shop Now</a>
+            <a href="categories-women.html" class="btn secondary">View Categories</a>
+        </div>
+    </div>
+
+    <!-- Floating Particles -->
+    <div class="floating-particles"></div>
+
+</section>
+
+
+
+<!-- 🏆 Best-Selling Deals Section -->
+<section class="luxury-deals-section">
+    <h2 class="luxury-deals-title">Best-Selling Luxury Deals</h2>
+    
+    <div class="luxury-carousel">
+        <div class="luxury-carousel-track">
+
+            <!-- 🌟 Product 1 -->
+            <div class="luxury-item-card">
+                <div class="luxury-item-image">
+                    <img src="watch.jpg" alt="Luxury Gold Watch">
+                </div>
+                <h3 class="luxury-item-name">Luxury Gold Watch</h3>
+                <p class="luxury-item-price">Now: <span>$3,500</span></p>
+                <p class="luxury-item-timer">Ends in: <span>12h 45m</span></p>
+            </div>
+
+            <!-- 🌟 Product 2 -->
+            <div class="luxury-item-card">
+                <div class="luxury-item-image">
+                    <img src="jewelry.jpg" alt="Diamond Necklace">
+                </div>
+                <h3 class="luxury-item-name">Diamond Necklace</h3>
+                <p class="luxury-item-price">Now: <span>$12,999</span></p>
+                <p class="luxury-item-timer">Ends in: <span>5h 30m</span></p>
+            </div>
+
+            <!-- 🌟 Product 3 -->
+            <div class="luxury-item-card">
+                <div class="luxury-item-image">
+                    <img src="handbag.jpg" alt="Designer Handbag">
+                </div>
+                <h3 class="luxury-item-name">Designer Handbag</h3>
+                <p class="luxury-item-price">Now: <span>$4,999</span></p>
+                <p class="luxury-item-timer">Ends in: <span>8h 10m</span></p>
+            </div>
+
+            <!-- 🌟 Product 4 -->
+            <div class="luxury-item-card">
+                <div class="luxury-item-image">
+                    <img src="headphones.jpg" alt="Premium Headphones">
+                </div>
+                <h3 class="luxury-item-name">Premium Headphones</h3>
+                <p class="luxury-item-price">Now: <span>$799</span></p>
+                <p class="luxury-item-timer">Ends in: <span>10h 15m</span></p>
+            </div>
+
+            <!-- 🌟 Product 5 -->
+            <div class="luxury-item-card">
+                <div class="luxury-item-image">
+                    <img src="footwear.jpg" alt="Premium Footwear">
+                </div>
+                <h3 class="luxury-item-name">Premium Footwear</h3>
+                <p class="luxury-item-price">Now: <span>$1,200</span></p>
+                <p class="luxury-item-timer">Ends in: <span>6h 55m</span></p>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luxury Bundle Deals</title>
+    <link rel="stylesheet" href="luxury-bundles.css">
+</head>
+<body>
+
+    <!-- 🔥 Exclusive Bundle Deals Section -->
+    <section class="luxury-bundle-section">
+        <h2 class="luxury-bundle-title">Exclusive Bundle Deals</h2>
+
+        <div class="luxury-bundle-container">
+
+            <!-- 🌟 Bundle 1 -->
+            <div class="luxury-bundle-card">
+                <div class="luxury-bundle-inner">
+                    <!-- Front Side -->
+                    <div class="luxury-bundle-front">
+                        <img src="imges/women-watcg.jpeg" alt="Luxury Watch & Jewelry">
+                        <h3 class="luxury-bundle-name">Watch & Jewelry Set</h3>
+                        <p class="luxury-bundle-price">Now: <span>$5,999</span></p>
+                        <div class="luxury-bundle-label vip-label">VIP Exclusive</div>
+                    </div>
+                    <!-- Back Side -->
+                    <div class="luxury-bundle-back">
+                        <h3>Luxury Watch & Jewelry Set</h3>
+                        <p>Includes a 24K gold watch & diamond necklace.</p>
+                        <button class="luxury-bundle-btn">Shop Now</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 🌟 Bundle 2 -->
+            <div class="luxury-bundle-card">
+                <div class="luxury-bundle-inner">
+                    <!-- Front Side -->
+                    <div class="luxury-bundle-front">
+                        <img src="imges/handbag2.jpeg" alt="Designer Handbag & Shoes">
+                        <h3 class="luxury-bundle-name">Handbag & Shoes</h3>
+                        <p class="luxury-bundle-price">Now: <span>$3,499</span></p>
+                        <div class="luxury-bundle-label limited-label">Limited Time Offer</div>
+                    </div>
+                    <!-- Back Side -->
+                    <div class="luxury-bundle-back">
+                        <h3>Exclusive Designer Set</h3>
+                        <p>Luxury handbag & premium Italian footwear.</p>
+                        <button class="luxury-bundle-btn">Shop Now</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 🌟 Bundle 3 -->
+            <div class="luxury-bundle-card">
+                <div class="luxury-bundle-inner">
+                    <!-- Front Side -->
+                    <div class="luxury-bundle-front">
+                        <img src="imges/AI-Powered.jpeg" alt="Tech Bundle">
+                        <h3 class="luxury-bundle-name">Luxury Tech Bundle</h3>
+                        <p class="luxury-bundle-price">Now: <span>$7,999</span></p>
+                        <div class="luxury-bundle-label vip-label">VIP Exclusive</div>
+                    </div>
+                    <!-- Back Side -->
+                    <div class="luxury-bundle-back">
+                        <h3>Premium Tech Bundle</h3>
+                        <p>Includes elite headphones & smartwatch.</p>
+                        <button class="luxury-bundle-btn">Shop Now</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+
+   
+    
+        <!-- 🌟 VIP Member Deals Section -->
+        <!-- 🌟 VIP Member Deals Section -->
+    <section class="vip-exclusive-section">
+        <h2 class="vip-section-title">VIP Member Exclusive Deals</h2>
+        
+        <div class="vip-card-container">
+            <!-- 🌟 VIP Membership Card -->
+            <div class="vip-deals-card">
+                <div class="vip-card-content">
+                    <!-- Front Side -->
+                    <div class="vip-card-front">
+                        <div class="vip-badge">VIP Exclusive</div>
+                        <h3 class="vip-card-title">Unlock Premium Discounts</h3>
+                        <p class="vip-card-info">Join our VIP program for access to elite luxury deals.</p>
+                    </div>
+                    <!-- Back Side -->
+                    <div class="vip-card-back">
+                        <ul class="vip-benefits-list">
+                            <li>💎 Extra 20% Off All Deals</li>
+                            <li>🚀 Early Access to Sales</li>
+                            <li>🎁 Exclusive VIP Gifts</li>
+                        </ul>
+                        <button class="vip-cta-button">Join VIP to Unlock</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+
+
+ <!-- Auto-Scrolling Product List -->
+ <div class="flash-sales-container">
+    <div class="flash-sales-track">
+        <!-- Product Card 1 -->
+        <div class="flash-sale-card">
+            <span class="flash-limited-badge">Limited Stock</span>
+            <img src="imges/watch2.jpeg" alt="Luxury Watch" class="flash-product-img">
+            <h3 class="flash-product-name">Luxury Gold Watch</h3>
+            <p class="flash-product-price">$2,499 <span class="flash-discount">(-30%)</span></p>
+            <button class="flash-quick-buy">Quick Buy</button>
+        </div>
+
+        <!-- Product Card 2 -->
+        <div class="flash-sale-card">
+            <span class="flash-limited-badge">Limited Stock</span>
+            <img src="imges/handbag.jpeg" alt="Designer Handbag" class="flash-product-img">
+            <h3 class="flash-product-name">Designer Handbag</h3>
+            <p class="flash-product-price">$1,999 <span class="flash-discount">(-25%)</span></p>
+            <button class="flash-quick-buy">Quick Buy</button>
+        </div>
+
+        <!-- Product Card 3 -->
+        <div class="flash-sale-card">
+            <span class="flash-limited-badge">Limited Stock</span>
+            <img src="imges/glasses5.jpeg" alt="Luxury Sunglasses" class="flash-product-img">
+            <h3 class="flash-product-name">Luxury Sunglasses</h3>
+            <p class="flash-product-price">$799 <span class="flash-discount">(-20%)</span></p>
+            <button class="flash-quick-buy">Quick Buy</button>
+        </div>
+    </div>
+</div>
+</section>
+
+
+
+<!-- 🌟 Customer Reviews Section -->
+<section class="customer-reviews-section">
+    <h2 class="reviews-heading">✨ What Our Clients Say ✨</h2>
+    <p class="reviews-subtitle">Experience the best in luxury, as shared by our valued customers.</p>
+
+    <div class="reviews-container">
+        <!-- ⭐ Review Card 1 -->
+        <div class="review-card">
+            <img src="imges/SmartHome.jpeg" alt="Reviewer 1" class="reviewer-image">
+            <h3 class="reviewer-name">James Richardson</h3>
+            <p class="review-text">"Absolutely stunning quality! The craftsmanship is unmatched."</p>
+            <div class="review-stars">⭐⭐⭐⭐⭐</div>
+        </div>
+
+        <!-- ⭐ Review Card 2 -->
+        <div class="review-card">
+            <img src="imges/Autonomous.jpeg" alt="Reviewer 2" class="reviewer-image">
+            <h3 class="reviewer-name">Sophia Williams</h3>
+            <p class="review-text">"Luxury at its finest. Every detail was perfect!"</p>
+            <div class="review-stars">⭐⭐⭐⭐⭐</div>
+        </div>
+
+        <!-- ⭐ Review Card 3 -->
+        <div class="review-card">
+            <img src="imges/AI-Powered.jpeg" alt="Reviewer 3" class="reviewer-image">
+            <h3 class="reviewer-name">Oliver Bennett</h3>
+            <p class="review-text">"A seamless and premium shopping experience. Highly recommend!"</p>
+            <div class="review-stars">⭐⭐⭐⭐⭐</div>
+        </div>
+
+        <!-- ⭐ Review Card 4 -->
+        <div class="review-card">
+            <img src="imges/Reimagined.jpeg" alt="Reviewer 4" class="reviewer-image">
+            <h3 class="reviewer-name">Emily Carter</h3>
+            <p class="review-text">"Exceeded all expectations! The quality speaks for itself."</p>
+            <div class="review-stars">⭐⭐⭐⭐⭐</div>
+        </div>
+    </div>
+</section>
+
+
+
+
+<!-- 🌟 Call to Action Section -->
+<section class="cta-exclusive-offers">
+    <div class="cta-content">
+        <h2 class="cta-title">✨ Luxury Deals. Limited Time. Shop Now. ✨</h2>
+        <p class="cta-subtitle">Unlock exclusive offers on premium collections.</p>
+        
+        <div class="cta-buttons">
+            <a href="shop.html" class="cta-shop-now">Shop Deals Now</a>
+            <a href="vip-section.html" class="cta-join-vip">Join VIP Club</a>
+        </div>
+    </div>
+
+    <!-- Floating Decorative Elements -->
+    <div class="cta-floating-icons">
+        <div class="floating-icon floating-diamond"></div>
+        <div class="floating-icon floating-watch"></div>
+        <div class="floating-icon floating-handbag"></div>
+        <div class="floating-icon floating-electronics"></div>
+    </div>
+</section>
+
+
+
+<!-- Footer -->
+<footer>
+    <div class="footer-content">
+        <p>&copy; 2025 LuxuryStore. All Rights Reserved.</p>
+        
+        <div class="social-links">
+            <p>Follow us on:</p>
+            <a href="https://instagram.com" target="_blank" class="social-icon">
+                <img src="imges/insta.jpeg" alt="Instagram">
+            </a>
+            <a href="https://facebook.com" target="_blank" class="social-icon">
+                <img src="imges/facebook.jpeg" alt="Facebook">
+            </a>
+            <a href="https://twitter.com" target="_blank" class="social-icon">
+                <img src="imges/twitter.jpeg" alt="Twitter">
+            </a>
+        </div>
+    </div>
+</footer>
+
+
+    <script defer src="script.js"></script>
+</body>
+</html>
